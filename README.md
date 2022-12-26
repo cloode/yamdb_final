@@ -1,4 +1,4 @@
-![Yamdb_workflow](https://github.com/krikrazrabotchika/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![Yamdb_workflow](https://github.com/cloode/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
 С использованием Continuous Integration и Continuous Deployment.
@@ -64,11 +64,11 @@ docker container exec -it <CONTAINER ID> bash
 python manage.py collectstatic --no-input
 python manage.py migrate
 ```
-4. Для использования панели администратора по адресу http://84.201.164.217/admin/ необходимо создать суперпользователя.
+4. Для использования панели администратора по адресу http://84.252.136.195/admin/ необходимо создать суперпользователя.
 ```
 python manage.py createsuperuser.
 ```
-5. К проекту по адресу http://84.201.164.217/redoc/ подключена документация API. В ней описаны шаблоны запросов к API и ответы. Для каждого запроса указаны уровни прав доступа - пользовательские роли, которым разрешён запрос.
+5. К проекту по адресу http://84.252.136.195/redoc/ подключена документация API. В ней описаны шаблоны запросов к API и ответы. Для каждого запроса указаны уровни прав доступа - пользовательские роли, которым разрешён запрос.
 
 ## Технологии используемые в проекте
 Python, Django, Django REST Framework, PostgreSQL, Nginx, Docker, GitHub Actions
@@ -76,8 +76,8 @@ Python, Django, Django REST Framework, PostgreSQL, Nginx, Docker, GitHub Actions
 
 Бэйдж
 
-https://github.com/krikrazrabotchika/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+https://github.com/cloode/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
 
 ## Развернутый проект можно посмотреть по ссылке:
 
-http://84.201.164.217/api/v1/
+http://84.252.136.195/api/v1/
