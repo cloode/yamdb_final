@@ -51,7 +51,7 @@ jobs:
         with:
           context: api_yamdb
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/gates777:v2.11
+          tags: ${{ secrets.DOCKER_USERNAME }}/erop12:v2.13
 
   deploy:
     runs-on: ubuntu-latest
@@ -67,7 +67,7 @@ jobs:
         script: |
           sudo docker-compose stop
           sudo docker-compose rm web
-          sudo docker pull ${{ secrets.DOCKER_USERNAME }}/gates777:v2.11
+          sudo docker pull ${{ secrets.DOCKER_USERNAME }}/erop12:v2.13
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
           echo DB_NAME=${{ secrets.DB_NAME }} >> .env
