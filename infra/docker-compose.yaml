@@ -9,7 +9,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: pashtet777/gates777:v2.11
+    image: mxrtem/erop12:v2.13
     restart: always
     volumes:
       - static_value:/app/static/
