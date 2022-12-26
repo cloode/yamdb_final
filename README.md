@@ -73,7 +73,7 @@ python manage.py createsuperuser.
 ## Технологии используемые в проекте
 Python, Django, Django REST Framework, PostgreSQL, Nginx, Docker, GitHub Actions
 
-
+ 
 Бэйдж
 
 https://github.com/cloode/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
