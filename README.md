@@ -81,3 +81,4 @@ https://github.com/cloode/yamdb_final/actions/workflows/yamdb_workflow.yml/badge
 ## Развернутый проект можно посмотреть по ссылке:
 
 http://84.252.136.195/api/v1/
+
